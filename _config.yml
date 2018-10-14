@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: '廖柯宇的独立博客'
-description: '昵称悟空，千禧一代，前端开发者/伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '廖柯宇, 廖柯宇的独立博客, 廖柯宇的博客, 前端, 前端开发, 前端博客, javascript, vuejs, nodejs, 设计'
+title: 'dlv‘s life'
+description: 'life is not only to be coder right now，but also the poetry and place farther days away'
+keyword: 'dlv, dlv的独立博客, dlv的博客'
 url: 'http://liaokeyu.com' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -14,23 +14,23 @@ nav:
 
 # Footer
 footer:
-  since: 2017
+  since: 2018
 
 # Author 配置博主信息
-author: '廖柯宇'
-nickname: '悟空'
-bio: '前端开发者，热爱技术&设计，简单乐观爱创造'
-avatar: '/assets/img/profile.png'
+author: 'dlv'
+nickname: 'dlv'
+bio: 'Coder Traveller Lifer'
+avatar: '/assets/img/profile2.JPG'
 
 # Search
 search: true
 
 # Night mode
-nightMode: true
+nightMode: false
 
 # Comments 评论功能
 comments:
-  disqus: false
+  disqus: true
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
 # MathJax 公式支持 by Ray-Eldath
@@ -49,14 +49,14 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
+  weibo: ''
+  juejin: ''
+  instagram: ''
+  github: '//github.com/Adam86546853'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
-recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+recommend-condition-size: 7 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
 paginate: 6
@@ -73,7 +73,6 @@ kramdown:
 RSS: false
 
 # Permalink
-# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
 permalink: /:year/:month/:day/:title.html
 
 # Plugins
