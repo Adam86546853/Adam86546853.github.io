@@ -33,6 +33,8 @@ comments:
   disqus: true
   disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
+intensedebate_comments: true
+
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
 
