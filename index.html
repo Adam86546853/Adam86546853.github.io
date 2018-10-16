@@ -46,7 +46,7 @@ description: 在这里，在这里
                     <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time>
                 </footer>
                 <footer class="post-meta">
-                    <a  class="post-tag" href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">评论</a>
+                    <a  class="post-tag" href="{{ post.url }}#disqus_thread">评论</a>
                 </footer>
             </article>
         {% endfor %}
